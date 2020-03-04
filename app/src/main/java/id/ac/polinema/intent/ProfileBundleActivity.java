@@ -18,6 +18,7 @@ public class ProfileBundleActivity extends AppCompatActivity {
         usernameText = findViewById(R.id.text_username);
         nameText = findViewById(R.id.text_name);
         ageText = findViewById(R.id.text_age);
+
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             // TODO: display value here
